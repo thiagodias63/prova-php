@@ -1,0 +1,47 @@
+.c-label,
+%c-label {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.c-input,
+%c-input {
+    margin-top: 4px;
+    width: 97%; /* 100% */
+    padding: 8px 0 8px 15px ;
+    background-color: #EFF1F7;
+    border: 0;
+    border-radius: 5px;
+    &:active,
+    &:focus {
+        border-color: #9b4dca;
+        outline: 0;
+    }
+    &--group {
+        width: 95%;
+        margin-top: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    &__group-button {
+        width: calc(10% - 3px);
+        background-color: #EFF1F7;
+        padding:0;
+        border-radius: 5px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        padding: .75rem 1rem;
+        border: 2px solid #575757;
+        outline: 0;
+        &:focus,
+        &:active,
+        &:hover {
+            border-color: #9b4dca;
+        }
+        &-icon {
+            width: 1.5rem;
+            height: 1.5rem;
+            color: #9b4dca;
+        }
+    }
+}

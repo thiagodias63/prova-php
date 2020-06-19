@@ -1,0 +1,27 @@
+%row {
+    margin-top: 15px;
+    width: 100%;
+    display: inline-block;
+}
+%col {
+    &-m6 {
+        display: inline-block;
+        margin-right: 3%;
+        width: 47%;
+    }
+    &-m4 {
+        display: inline-block;
+        margin-right: 3%;
+        width: 30%;
+    }
+    &-m3 {
+        display: inline-block;
+        margin-right: 3%;
+        width: 22%;
+    }
+    &-m2 {
+        display: inline-block;
+        margin-right: 3%;
+        width: 13.5%;
+    }
+}

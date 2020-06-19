@@ -1,0 +1,10 @@
+/* for inputs */
+input.is-invalid {
+    border-bottom: 2px solid $table-numbers;
+    color: $table-numbers;
+}
+button.is-disabled,
+input.is-disabled {
+    opacity: 0.8;
+    cursor: not-allowed;
+}

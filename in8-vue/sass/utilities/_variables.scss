@@ -1,0 +1,40 @@
+// fonts
+%f-title {
+    font-family: 'Helvetica 25', Arial, Helvetica, sans-serif;
+}
+%f-label-input {
+    font-family:  'Roboto' , Arial, Helvetica, sans-serif;
+}
+%f-input-form {
+    font-family: 'Helvetica Condensed';
+}
+%f-button {
+    font-family: 'Helvetica 25', Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+%f-menu {
+    font-family:  'Roboto' , Arial, Helvetica, sans-serif;
+}
+%f-table-numbers { 
+    font-family: 'Roboto Light', Arial, Helvetica, sans-serif;
+}
+%f-table-title {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+%f-table-info {
+    font-family:  'Helvetica Condensed';
+}
+%f-footer {
+    font-family:  'Roboto', Arial, Helvetica, sans-serif;
+}
+
+// colors
+$background-sign: #29abe2;
+$signin-title: #29abe2;
+$list-title: #29abe2;
+$table-numbers: #012d51;
+$button-signin: #012d51;
+$table-th-titles:#012d51;
+$table-rows: #29abe2;
+$table-infos: #808080;
+$danger-red: #fa5656;

@@ -1,0 +1,18 @@
+%c-tables,
+.c-tables {
+    font-size: 15px;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 2.5rem;
+    &-td {
+        border-bottom: 0.1rem solid #e1e1e1;
+        padding: 1.2rem 1.5rem;
+        text-align: left;
+        &--first {
+            padding-left: 0;
+        }
+        &--last {
+            padding-right: 0;
+        }
+    }
+}
